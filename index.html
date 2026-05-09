@@ -74,8 +74,8 @@ nav.sc{background:rgba(7,7,15,.93);backdrop-filter:blur(16px);padding:1rem 6%;bo
 .photo-wrap{position:relative;width:360px;height:450px}
 .photo-glow{position:absolute;inset:-20px;background:radial-gradient(ellipse,rgba(200,168,75,.18) 0%,transparent 70%);border-radius:28px;animation:glowPulse 3s ease-in-out infinite}
 @keyframes glowPulse{0%,100%{opacity:.6;transform:scale(1)}50%{opacity:1;transform:scale(1.04)}}
-.photo-frame{position:absolute;inset:0;border-radius:24px;overflow:hidden;border:1.5px solid rgba(200,168,75,.3);box-shadow:0 24px 70px rgba(0,0,0,.7),0 0 40px rgba(200,168,75,.1)}
-.photo-frame img{width:100%;height:100%;object-fit:cover;object-position:center top;}
+.photo-frame{position:absolute;inset:0;border-radius:4px;overflow:hidden;border:1.5px solid rgba(200,168,75,.3);box-shadow:0 24px 70px rgba(0,0,0,.7),0 0 40px rgba(200,168,75,.1)}
+.photo-frame img{width:10%;height:10%;object-fit:cover;object-position:center top;}
 .photo-frame::after{content:'';position:absolute;inset:0;background:linear-gradient(180deg,transparent 60%,rgba(7,7,15,.8) 100%)}
 .avail-chip{position:absolute;top:18px;right:-22px;background:rgba(7,7,15,.85);border:1px solid rgba(37,211,102,.3);border-radius:20px;padding:.38rem 1rem;display:flex;align-items:center;gap:.5rem;font-size:.68rem;font-weight:600;color:#25d366;backdrop-filter:blur(8px)}
 .avail-chip .ad{width:6px;height:6px;background:#25d366;border-radius:50%;animation:pulse 1.6s infinite}
@@ -106,8 +106,8 @@ nav.sc{background:rgba(7,7,15,.93);backdrop-filter:blur(16px);padding:1rem 6%;bo
 /* ── ABOUT ────────── */
 .about-grid{display:grid;grid-template-columns:1fr 1fr;gap:5rem;align-items:center}
 .about-img-wrap{position:relative}
-.about-photo{width:100%;aspect-ratio:4/5;border-radius:22px;overflow:hidden;border:1.5px solid var(--border);box-shadow:var(--shadow)}
-.about-photo img{width:80%;height:80%;object-fit:cover;object-position:center top;}
+.about-photo{width:20%;aspect-ratio:4/5;border-radius:22px;overflow:hidden;border:1.5px solid var(--border);box-shadow:var(--shadow)}
+.about-photo img{width:20%;height:20%;object-fit:cover;object-position:center top;}
 .exp-badge{position:absolute;bottom:28px;right:-22px;background:linear-gradient(135deg,var(--gold),var(--gold2));border-radius:16px;padding:1rem 1.3rem;text-align:center;box-shadow:0 8px 28px rgba(200,168,75,.4)}
 .exp-badge .big{font-family:var(--head);font-size:2rem;font-weight:900;color:var(--bg);line-height:1}
 .exp-badge .sm{font-size:.65rem;font-weight:700;color:rgba(0,0,0,.65);text-transform:uppercase;letter-spacing:.1em;margin-top:.2rem}
@@ -499,24 +499,8 @@ footer{background:var(--bg2);border-top:1px solid var(--border2);padding:3rem 0 
           </div>
         </div>
       </div>
-      <div>
-        <span class="s-eyebrow rv">Tools</span>
-        <h2 class="s-title rv">My <em>Toolkit</em></h2>
-        <div class="s-line rv"></div>
-        <div class="tech-cards">
-          <div class="tech-card rv d1"><div class="ti">🌐</div><span>HTML5</span></div>
-          <div class="tech-card rv d2"><div class="ti">🎨</div><span>CSS3</span></div>
-          <div class="tech-card rv d3"><div class="ti">⚡</div><span>JavaScript</span></div>
-          <div class="tech-card rv d1"><div class="ti">🔥</div><span>Firebase</span></div>
-          <div class="tech-card rv d2"><div class="ti">📱</div><span>Responsive</span></div>
-          <div class="tech-card rv d3"><div class="ti">🖌️</div><span>UI/UX</span></div>
-          <div class="tech-card rv d1"><div class="ti">🎭</div><span>Figma</span></div>
-          <div class="tech-card rv d2"><div class="ti">📦</div><span>Git</span></div>
-          <div class="tech-card rv d3"><div class="ti">🚀</div><span>Netlify</span></div>
-        </div>
-      </div>
     </div>
-  </div>
+    
 </section>
 
 <!-- Contact -->
